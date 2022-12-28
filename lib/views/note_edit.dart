@@ -125,6 +125,7 @@ class _NoteForm extends StatelessWidget {
                       return state.tituloMessage;
                     }
                   }
+                  return value;
                 },
               );
             }),
